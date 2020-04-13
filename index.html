@@ -9,6 +9,11 @@
     <title>Loan Calculator 3000</title>
     
 </head>
+<style>
+    #loading, #results{
+        display :none
+    }
+</style>
 <body class="bg-dark">
     <div class="container">
         <div class="row">                                       
@@ -41,12 +46,12 @@
                             </div>
 
                             <!-- Loader goes here -->
-                            <!-- <div id="loading">
+                            <div id="loading">
                                 <img src="img/loading.gif" alt="">
-                            </div> -->
+                            </div>
 
                             <!-- RESULTS -->
-                            <div>
+                            <div id="results">
                                 <h5>Results</h5>
                                     <div class="input-group mb-3">
                                         <div class="input-group-prepend">
